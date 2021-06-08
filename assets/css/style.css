@@ -1,3 +1,11 @@
+/***TABLE OF CONTENTS
+
+HEADER - Site name 
+
+
+***/
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,13 +16,13 @@ body {
     background-color: #d9dcd6;
 }
 
+/** HEADER **/
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
-
-    
+    color: #ffffff;    
 }
 
 header h1 {
@@ -43,16 +51,20 @@ header div ul li {
     margin-left: 25px;
 }
 
+
+
+
+/*ATTRIBUTES FOR ALL HREF LINKS*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*ATTRIBUTES TO ALL PARAGRAPHS*/
 p {
     font-size: 16px;
 }
 
-.hero {
+.header-photo {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
