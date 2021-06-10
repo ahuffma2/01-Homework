@@ -17,7 +17,7 @@ Github: [https://github.com/ahuffma2/horiseon-refactor](https://github.com/ahuff
 
 Site: [Horiseon](https://ahuffma2.github.io/horiseon-refactor/)
 
-![Site Overview.](github.com/ahuffma2/horiseon-refactor/main/assets/images/Site.jpg)
+![Site Overview.](https://github.com/ahuffma2/horiseon-refactor/blob/main/assets/images/Site.JPG)
 
 
 ## Author
