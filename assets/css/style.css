@@ -41,12 +41,9 @@ header div {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-header div ul {
-    list-style-type: none;
-}
-
+/*Truncated the " div ul " and "div ul li" class. Was Redundant*/
 header div ul li {
+    list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
@@ -83,13 +80,13 @@ p {
     margin-left: 25px;
 }
 
-.content {
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -100,6 +97,8 @@ p {
     background-color: #2589bd;
 }
 
+
+/*************These Need to be fixed***********************/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -147,7 +146,12 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/***********************************************/
 
+
+
+/*The Following three things should be combined? */
+/***************************/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -174,7 +178,10 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/***************************/
 
+
+/*****I believe these can be combined***********/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -201,14 +208,16 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/***********************************/
 
-.footer {
+/**FOOTER**/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
